@@ -1,5 +1,4 @@
 def prime? (int)
-  i = 2
-  a = 1
-  for 
+  for i in 2.. (int-1)
+    
 end
