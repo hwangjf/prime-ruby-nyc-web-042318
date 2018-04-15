@@ -1,5 +1,5 @@
 def prime? (int)
-  if (int <= 1)
+  if (int <= 3)
     return false
   end
   for i in 2.. ((int)-1)
