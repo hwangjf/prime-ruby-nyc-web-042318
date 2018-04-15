@@ -1,7 +1,9 @@
 def prime? (int)
-  a = int.abs
-  for i in 2.. ((a)-1)
-    if a % i == 0 
+  if int < 0
+    return false
+  end
+  for i in 2.. ((int)-1)
+    if int % i == 0 
       return false
     end
   end
